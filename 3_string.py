@@ -11,6 +11,10 @@ def getStr(s):
 print(getStr("abc"))
 print(getStr("xyz"))
 
-string = "aabbcc"
+string = "aabbCc"
 print(string.find("a"))
 print(string.find("bb"))
+
+
+print(string.upper())
+print(string.lower())
