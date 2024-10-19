@@ -10,3 +10,7 @@ def getStr(s):
 
 print(getStr("abc"))
 print(getStr("xyz"))
+
+string = "aabbcc"
+print(string.find("a"))
+print(string.find("bb"))
