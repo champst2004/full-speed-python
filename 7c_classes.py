@@ -12,7 +12,7 @@ class Rectangle:
     return(str(self.x1) + ', ' + str(self.y1) + ', ' + str(self.x2) + ', '+str(self.y2))
 
 r = Rectangle (2, 7, 8, 4)
-print (r)
+print(r)
 
 '''
 python has a built-in method __str__ used for the string representation of an object.
